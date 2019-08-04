@@ -2,7 +2,7 @@
 # coding: utf-8
 
 """
-This script implement an autoregressive forecasting model in tensorflow
+This script implement an autoregressive model in tensorflow to forecast AU temperatures
 """
 
 
@@ -63,14 +63,14 @@ def derivative(x):
 
 def integral(x,w=50):
     x = np.convolve(x,np.ones(w)/w,mode='full')
-    x = x[w//2:-w//2+1] 
+    x = x[w//2:-w//2+1]
     return x
 
 
 # The autocorrelation function is used on the target
 # The results of this function are detrended
 # The first value is discarded as it is lag 0
-    
+
 ac = autocorrelation(y.ravel())
 ac = signal.detrend(ac)
 t = np.arange(0,ac.size)
@@ -300,7 +300,7 @@ for z in np.arange(-3,4,1):
     print('rsquared:',1-SSE/SST,'std from mean',z)
     rsq[i] = 1-SSE/SST
     i+=1
-    
+
 plt.plot(x,rsq)
 plt.title('rsquared by standard deviation from mean')
 plt.show()
@@ -310,7 +310,7 @@ plt.figure(figsize=(10,5))
 plt.plot(Y_valid)
 plt.title('test data time series prediction - tensorflow')
 sb_valid = create_snowballed_time_series(Y_valid,num_models=30,num_epochs=100)
-    
+
 sns.tsplot(sb_valid[:,start:])
 plt.show()
 
@@ -363,3 +363,4 @@ plt.figure(figsize=(10,5))
 plt.title('rsquared by standard deviation from mean')
 plt.plot(x,rsq)
 plt.show()
+
