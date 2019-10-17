@@ -45,7 +45,7 @@ df.loc[:,'Rain'] = interpolate_nans(df['Rain'])
 train_percentage = 0.8
 
 
-y = df[['Temp']].values[:int(len(celsius)*train_percentage)]
+y = df[['Temp']].values[:int(len(df)*train_percentage)]
 plt.figure(figsize=(10,5))
 plt.plot(df[['Date']].values,df[['Temp']].values)
 plt.title('temperature by year')
