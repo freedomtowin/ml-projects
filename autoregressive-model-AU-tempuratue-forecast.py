@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
+# Rohan Kotwani
 
 """
 This script implement an autoregressive model in tensorflow to forecast AU temperatures
