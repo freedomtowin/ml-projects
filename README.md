@@ -6,4 +6,4 @@
 
 #### 2. mobilenetWrapper.cpp, mobilenetWrapper.hpp
 
-  mobilenetWrapper.cpp & mobilenetWrapper.hpp includes a C++ to Swift wrapper used to implement mobilenet,deep learning classifier, on an iOS device. The iOS application uploads the pre-built caffe model and runs it using the iOS DNN framework.  
+  The mobilenetWrapper.cpp & mobilenetWrapper.hpp files include a C++ to Swift wrapper used to implement mobilenet, a deep learning classifier, on an iOS device. The iOS application uploads the pre-built caffe model and runs it using the iOS DNN framework.  
