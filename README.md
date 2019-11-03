@@ -2,7 +2,7 @@
 
 * 1d-convolutional-network-AU-tempuratue-prediction.py 
 
-This file includes a 1-d convolutional neural network forecasting model, built with TensorFlow v1.2. It forecasts the AU temperature using historical temperatures/rainfall. 
+  This file includes a 1-d convolutional neural network forecasting model, built with TensorFlow v1.2. It forecasts Australian    temperature using historical temperature/rainfall. 
 
 * mobilenetWrapper.cpp
 * mobilenetWrapper.hpp
