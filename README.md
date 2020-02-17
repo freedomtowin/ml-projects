@@ -7,3 +7,10 @@
 #### 2. mobilenetWrapper.cpp, mobilenetWrapper.hpp
 
   The mobilenetWrapper.cpp & mobilenetWrapper.hpp files include a C++ to Swift wrapper used to implement mobilenet, a deep learning classifier, on an iOS device. The iOS application uploads the pre-built caffe model and runs it using the iOS DNN framework.  
+
+#### 3. cat-date-ii.ipynb
+
+Machine learning workflow for Kaggle Competition: Categorical Feature Encoding Challenge II. The workflow explores using mean-value encoding, noise reduction techniques, and a categorical embedding layer with tensorflow. 
+
+Public leaderboard score (AUC): 0.78518
+Top public leaderboard score (AUC): 0.78676
