@@ -10,7 +10,7 @@ Private leaderboard score (AUC): 0.78685
 
 Rank 1 private leaderboard score (AUC): 0.78820
 
-Link: https://www.kaggle.com/c/cat-in-the-dat-ii/
+[Competition Link](https://www.kaggle.com/c/cat-in-the-dat-ii/)
 
 ## Deep Autoregressive Models, Forecasting with TensorFlow 2.0
 
@@ -18,7 +18,7 @@ Link: https://www.kaggle.com/c/cat-in-the-dat-ii/
 
 A formulation for deep autoregressive models was created using the 1st order approximation of the autoregressive function. A deep autoregressive model was created, in TensorFlow, to forecast temperature and rainfall in Melbourne AU. The forecasts were created by snowballing the predictions back into the model. The result showed that the model was capable of capturing small global trends and periodic patterns.
 
-Blog Post: https://freedomtowin.github.io/2020/05/12/Deep-Autoregressive-Models.html
+[Blog Post](https://freedomtowin.github.io/2020/05/12/Deep-Autoregressive-Models.html)
 
 ## 1-D Covolutional Network, Tensorflow 1.0
 
@@ -32,8 +32,8 @@ Blog Post: https://freedomtowin.github.io/2020/05/12/Deep-Autoregressive-Models.
 
 This notebook shows the optimization of a multi-class, linear support vector machine using a simulation based optimizer. Any simulation based optimizer could be used with the cuda kernel in this notebook. I used KernelML, my custom optimizer, in this example. 
 
-Colab Link: https://colab.research.google.com/drive/1AptayjRoDITNLmyfCc0T7z_xKFBlg2l-#scrollTo=pa88P5JUvv_X
+[Colab Link](https://colab.research.google.com/drive/1AptayjRoDITNLmyfCc0T7z_xKFBlg2l-#scrollTo=pa88P5JUvv_X)
 
-Blog Post:https://freedomtowin.github.io/2019/12/11/KernelML-SVM-GPU.html
+[Blog Post](https://freedomtowin.github.io/2019/12/11/KernelML-SVM-GPU.html)
 
 The runtime for this script should be set to use the GPU: Runtime->Change runtime type.
