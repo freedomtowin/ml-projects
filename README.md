@@ -22,7 +22,7 @@ Blog Post: https://freedomtowin.github.io/2020/05/12/Deep-Autoregressive-Models.
 
 ## 1-D Covolutional Network, Tensorflow 1.0
 
-#### (https://github.com/freedomtowin/ml-projects/blob/master/1d-convolutional-network-AU-tempuratue-prediction.py)[1d-convolutional-network-AU-tempuratue-prediction.py] (tensorflow v1)
+#### ![https://github.com/freedomtowin/ml-projects/blob/master/1d-convolutional-network-AU-tempuratue-prediction.py](1d-convolutional-network-AU-tempuratue-prediction.py) (tensorflow v1)
 
    1d-convolutional-network-AU-tempuratue-prediction.py includes a 1-d convolutional neural network forecasting model, built with TensorFlow v1.2. The model forecasts Australian    temperature using historical temperature/rainfall. 
 
