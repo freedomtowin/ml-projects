@@ -28,6 +28,8 @@ Blog Post: https://freedomtowin.github.io/2020/05/12/Deep-Autoregressive-Models.
 
 ## Particle Swarm Optimization on a GPU, Support Vector Machine 
 
+#### support_vector_machine_gpu_optimization.ipynb (cuda, kernelml)
+
 This notebook shows the optimization of a multi-class, linear support vector machine using a simulation based optimizer. Any simulation based optimizer could be used with the cuda kernel in this notebook. I used KernelML, my custom optimizer, in this example. 
 
 Colab Link: https://colab.research.google.com/drive/1AptayjRoDITNLmyfCc0T7z_xKFBlg2l-#scrollTo=pa88P5JUvv_X
