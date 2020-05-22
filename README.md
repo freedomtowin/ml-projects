@@ -6,9 +6,9 @@
 
 Machine learning workflow for Kaggle Competition: Categorical Feature Encoding Challenge II. The workflow explores using mean-value encoding, noise reduction techniques, and a categorical embedding layer with tensorflow. 
 
-Public leaderboard score (AUC): 0.78518
+Private leaderboard score (AUC): 0.78685
 
-Top public leaderboard score (AUC): 0.78676
+Rank 1 private leaderboard score (AUC): 0.78820
 
 Link: https://www.kaggle.com/c/cat-in-the-dat-ii/
 
