@@ -2,7 +2,7 @@
 
 ## Kaggle Competition - Categorial Feature Encoding Challenge 2
 
-#### cat-dat-ii.ipynb (tensorflow v2)
+#### [cat-dat-ii.ipynb (tensorflow v2)](https://github.com/freedomtowin/ml-projects/blob/master/cat-data-ii.ipynb)
 
 Machine learning workflow for Kaggle Competition: Categorical Feature Encoding Challenge II. The workflow explores using mean-value encoding, noise reduction techniques, and a categorical embedding layer with tensorflow. 
 
@@ -14,7 +14,7 @@ Rank 1 private leaderboard score (AUC): 0.78820
 
 ## Deep Autoregressive Models, Forecasting with TensorFlow 2.0
 
-#### deep-autoregressive-model-tensorflow.ipynb (tensorflow v2)
+#### [deep-autoregressive-model-tensorflow.ipynb (tensorflow v2)](https://github.com/freedomtowin/ml-projects/blob/master/deep-autoregressive-model-tensorflow.ipynb)
 
 A formulation for deep autoregressive models was created using the 1st order approximation of the autoregressive function. A deep autoregressive model was created, in TensorFlow, to forecast temperature and rainfall in Melbourne AU. The forecasts were created by snowballing the predictions back into the model. The result showed that the model was capable of capturing small global trends and periodic patterns.
 
@@ -28,7 +28,7 @@ A formulation for deep autoregressive models was created using the 1st order app
 
 ## Particle Swarm Optimization on a GPU, Support Vector Machine 
 
-#### support_vector_machine_gpu_optimization.ipynb (cuda, kernelml)
+#### [support_vector_machine_gpu_optimization.ipynb (cuda, kernelml)](https://github.com/freedomtowin/ml-projects/blob/master/support_vector_machine_gpu_optimization.ipynb)
 
 This notebook shows the optimization of a multi-class, linear support vector machine using a simulation based optimizer. Any simulation based optimizer could be used with the cuda kernel in this notebook. I used KernelML, my custom optimizer, in this example. 
 
