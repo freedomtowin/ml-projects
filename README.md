@@ -26,4 +26,10 @@ Blog Post: https://freedomtowin.github.io/2020/05/12/Deep-Autoregressive-Models.
 
    1d-convolutional-network-AU-tempuratue-prediction.py includes a 1-d convolutional neural network forecasting model, built with TensorFlow v1.2. The model forecasts Australian    temperature using historical temperature/rainfall. 
 
+## Particle Swarm Optimization on a GPU, Support Vector Machine 
 
+This notebook shows the optimization of a multi-class, linear support vector machine using a simulation based optimizer. Any simulation based optimizer could be used with the cuda kernel in this notebook. I used KernelML, my custom optimizer, in this example. 
+
+Colab Link: https://colab.research.google.com/drive/1AptayjRoDITNLmyfCc0T7z_xKFBlg2l-#scrollTo=pa88P5JUvv_X
+
+The runtime for this script should be set to use the GPU: Runtime->Change runtime type.
