@@ -34,4 +34,6 @@ This notebook shows the optimization of a multi-class, linear support vector mac
 
 Colab Link: https://colab.research.google.com/drive/1AptayjRoDITNLmyfCc0T7z_xKFBlg2l-#scrollTo=pa88P5JUvv_X
 
+Blog Post:https://freedomtowin.github.io/2019/12/11/KernelML-SVM-GPU.html
+
 The runtime for this script should be set to use the GPU: Runtime->Change runtime type.
