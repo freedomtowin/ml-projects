@@ -38,7 +38,7 @@ This notebook shows the optimization of a multi-class, linear support vector mac
 
 The runtime for this script should be set to use the GPU: Runtime->Change runtime type.
 
-# Hierarchical Density Factorization
+## Hierarchical Density Factorization
 
 #### [kernelml-hierarchical-density-factorization.ipynb](https://github.com/freedomtowin/ml-projects/blob/master/kernelml-hierarchical-density-factorization.ipynb)
 
