@@ -40,7 +40,7 @@ The runtime for this script should be set to use the GPU: Runtime->Change runtim
 
 ## Hierarchical Density Factorization
 
-#### [kernelml-hierarchical-density-factorization.ipynb](https://github.com/freedomtowin/ml-projects/blob/master/kernelml-hierarchical-density-factorization.ipynb)
+#### [kernelml-hierarchical-density-factorization.ipynb](https://github.com/freedomtowin/ml-projects/blob/master/Density-Factorization/kernelml-hierarchical-density-factorization.ipynb)
 
 The goal is to approximate any multi-variate distribution using a weighted sum of kernels. Here, a kernel refers to a parameterized distribution. This method of using a decaying weighted sum of kernels to approximate a distribution is similar to a Taylor series where a function can be approximated, around a point, using the function’s derivatives. KernelML is a particle optimizer that uses parameter constraints and sampling methods to minimize a customizable loss function. The package uses a Cythonized backend and parallelizes operations across multiple cores with the Numba. KernelML is now available on the Anaconda cloud and PyPi (pip). Please see the KernelML extention on the documentation page.
 
