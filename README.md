@@ -28,7 +28,7 @@ A formulation for deep autoregressive models was created using the 1st order app
 
 ## Particle Swarm Optimization on a GPU, Support Vector Machine 
 
-#### [support_vector_machine_gpu_optimization.ipynb (cuda, kernelml)](https://github.com/freedomtowin/ml-projects/blob/master/support_vector_machine_gpu_optimization.ipynb)
+#### [support_vector_machine_gpu_optimization.ipynb (cuda, kernelml)](https://github.com/freedomtowin/ml-projects/blob/master/Particle-Swarm-Optimization-On-GPU/support_vector_machine_gpu_optimization.ipynb)
 
 This notebook shows the optimization of a multi-class, linear support vector machine using a simulation based optimizer. Any simulation based optimizer could be used with the cuda kernel in this notebook. I used KernelML, my custom optimizer, in this example. 
 
