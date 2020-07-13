@@ -14,7 +14,7 @@ Rank 1 private leaderboard score (AUC): 0.78820
 
 ## Deep Autoregressive Models, Forecasting with TensorFlow 2.0
 
-#### [deep-autoregressive-model-tensorflow.ipynb (tensorflow v2)](https://github.com/freedomtowin/ml-projects/blob/master/deep-autoregressive-model-v1.ipynb)
+#### [deep-autoregressive-model-tensorflow.ipynb (tensorflow v2)](https://github.com/freedomtowin/ml-projects/blob/master/Deep-Autoregressive-Model/deep-autoregressive-model-v1.ipynb)
 
 A formulation for deep autoregressive models was created using the 1st order approximation of the autoregressive function. A deep autoregressive model was created, in TensorFlow, to forecast temperature and rainfall in Melbourne AU. The forecasts were created by snowballing the predictions back into the model. The result showed that the model was capable of capturing small global trends and periodic patterns.
 
