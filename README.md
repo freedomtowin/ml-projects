@@ -10,21 +10,20 @@ Private leaderboard score (AUC): 0.78685
 
 Rank 1 private leaderboard score (AUC): 0.78820
 
-
-
-[Competition Link](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)
+[Competition Link](https://www.kaggle.com/c/cat-in-the-dat-ii/)
 
 ## Kaggle Competition - Predict Future Sales
 
-#### [kotwani_final_project_predict_future_sales.ipynb (tensorflow v2)](https://github.com/freedomtowin/ml-projects/blob/master/Kaggle-Categorical-Feature-Encoding-Challenge-2/kotwani_final_project_predict_future_sales.ipynb)
+#### [predict-future-sales.ipynb (tensorflow v2)](https://github.com/freedomtowin/ml-projects/blob/master/Kaggle-Predict-Future-Sales/predict-future-sales.ipynb)
 
 Predict Future Sales: The final project for "How to win a data science competition" Coursera course, part 2 of the advanced machine learning specialization. The goal is to predict the monthly sales of items in each shop for the month of Novemeber. There are 33 months of daily item-shop data given in the training dataset.
 
-The final solution effectively uses ID and categorical columns for feature creation, validation, and ensemble models. It combined results from boosted decision trees and neural networks by category ID and utilized time-based HASH VECTORS. 
+The final solution effectively uses ID and categorical columns for feature creation, validation, and ensemble models. It combined results from boosted decision trees built on different categorical features.
 
-Public Score: Top 2%: 108/8928
+Public Score: Top 1%: 79/8953
 
-[Competition Link](https://www.kaggle.com/c/cat-in-the-dat-ii/)
+[Competition Link](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)
+
 
 ## Deep Autoregressive Models, Forecasting with TensorFlow 2.0
 
