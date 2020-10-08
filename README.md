@@ -2,7 +2,15 @@
 
 ## Kaggle Competition - M5 Forecasting Competition - Accuracy
 
-...
+#### [m5-lstm-model.ipynb (tensorflow v2)](https://github.com/freedomtowin/ml-projects/blob/master/Kaggle-M5-Forecasting-Accuracy/m5-lstm-model.ipynb)
+
+#### [m5-pricing-agg-model.ipynb (tensorflow v2)](https://github.com/freedomtowin/ml-projects/blob/master/Kaggle-M5-Forecasting-Accuracy/m5-pricing-agg-model.ipynb)
+
+The final resulted used an ensemble of two neural network models: 1) a pricing-based dense network for each deptarment and store 2) an pattern model using LSTMs for each time series cluster (time series were clustered on the correlation matrix)
+
+The result was achieved with neural networks while light gradient boosted machines were the favorite among competitors in this competition. 
+
+Private Score: Top 7%: 386/5558
 
 ## Kaggle Competition - Categorial Feature Encoding Challenge 2
 
