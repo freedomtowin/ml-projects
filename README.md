@@ -36,6 +36,17 @@ Public Score: Top 1%: 79/8953
 
 [Competition Link](https://www.kaggle.com/c/competitive-data-science-predict-future-sales)
 
+## Serve a Pretrained TensorFlow Image Classifier with Docker (locally)
+
+#### [Docker-TensorFlow-Serving (tensorflow v2)](https://github.com/freedomtowin/ml-projects/blob/master/Docker-TensorFlow-Serving)
+
+Requirements: Docker, tensorflow/serving (image), python 3.8, tensorflow 2.3.0
+
+This project loads in a pretrained model and saves it in a TF2.0 SavedModel format.
+
+A docker image with tensorflow/serving is created. The SavedModel is copied to the image for serving.
+
+A test image is downloaded and sent to the server for scoring using REST. The result is returned.
 
 ## Deep Autoregressive Models, Forecasting with TensorFlow 2.0
 
