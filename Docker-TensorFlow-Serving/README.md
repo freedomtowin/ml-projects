@@ -10,12 +10,12 @@ A test image is downloaded and sent to the server for scoring using REST. The re
 
 Here are the steps to run this project: 
 
-0) cd to Docker-TensorFlow-Serving
+0) `cd Docker-TensorFlow-Serving` in Anaconda Prompt and PowerShell
 
-1) delete the mobilenet_final folder
+1) delete the mobilenet_final model folder in Docker-TensorFlow-Serving
 
-2) run `python save-pretrained-savedmodel.py` 
+2) run `python save-pretrained-savedmodel.py` in Anaconda Prompt
 
-3) run the Docker commands in create_container.ps1
+3) run the Docker commands in create_container.ps1 in PowerShell
 
-4) run `python call-model-server.py`
+4) run `python call-model-server.py` in Anaconda Prompt
