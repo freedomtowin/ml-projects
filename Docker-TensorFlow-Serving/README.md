@@ -16,6 +16,7 @@ Here are the steps to run this project:
 
 2) run `python save-pretrained-savedmodel.py` in Anaconda Prompt
 
-3) run the Docker commands in create_container.ps1 in PowerShell
+3) run the Docker commands in create_container.ps1 in PowerShell. This will create a custom image with tensorflow/serving and copy the SavedModel to the image. It will also start the container and open the REST and GRPC ports.
 
 4) run `python call-model-server.py` in Anaconda Prompt
+
